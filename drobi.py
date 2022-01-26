@@ -28,7 +28,8 @@ def drobi():
             c = input('Введите числитель 2-ой дроби: ')
             d = input('Введите знаменатель 2-ой дроби: ')
 
-            if check_dot(a) or check_dot(b) or check_dot(c) or check_dot(d) or letter(a) or letter(b) or letter(c):
+            if check_dot(a) or check_dot(b) or check_dot(c) or check_dot(d) or letter(a) or letter(b) or letter(c) or \
+                    letter(d):
                 print('Ошибка!Введено вещественное число или буква')
                 continue
 
